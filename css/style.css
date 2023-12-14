@@ -1,0 +1,59 @@
+.container-grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cell{
+    background-color: lightcoral;
+    border: dashed green 2px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.click-active{
+    background-color: aqua;
+    font-size: 36px;
+    color: blueviolet;
+    border-radius: 1px;
+}
+
+.button-1{
+    padding: 5px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+
+#difficulty{
+    width: 20%;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.container-grid > .cell-100{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.container-grid > .cell-81{
+    width: calc(1000px / 9);
+    height: calc(1000px / 9);
+    line-height: calc(1000px / 9);
+}
+
+.container-grid > .cell-49{
+    width: calc(1000px / 7);
+    height: calc(1000px / 7);
+    line-height: calc(1000px / 7);
+}
+
+.bomb{
+    background-color: red;
+}
