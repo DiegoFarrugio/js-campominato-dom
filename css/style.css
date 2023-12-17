@@ -1,4 +1,4 @@
-.container-grid{
+/*.container-grid{
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
@@ -56,4 +56,100 @@
 
 .bomb{
     background-color: red;
+}*/
+
+.container-grid{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
+
+.cell{
+    width: 10%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: 2px dashed green;
+    cursor: pointer;
+}
+
+.click-active{
+    background-color: blue;
+}
+
+.clicked{
+    background-color: green;
+    border-color: black;
+    color: aqua;
+}
+
+.bomb{
+    color: white;
+    background-color: purple;
+}
+
+.form-select{
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+
+.cell-100{
+    width: calc(1000px / 10);
+    height: calc(1000px / 10);
+    line-height: calc(1000px / 10);
+}
+
+.cell-81{
+    width: calc(1000px / 9);
+    height: calc(1000px / 9);
+    line-height: calc(1000px / 9);
+}
+
+.cell-49{
+    width: calc(1000px / 7);
+    height: calc(1000px / 7);
+    line-height: calc(1000px / 7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
